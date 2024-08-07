@@ -40,11 +40,11 @@ jobs:
 
     - name: 'Terraform Plan'
       run: terraform plan
-      if: inputs.destroy == 'false'
+      if: inputs.destroy == 'true'
 
     - name: 'Terraform Apply'
       run: terraform apply -auto-approve
-      if: inputs.destroy == 'false'
+      if: inputs.destroy == 'true'
 
     - name: 'Terraform Destroy'
       run: terraform destroy -auto-approve
