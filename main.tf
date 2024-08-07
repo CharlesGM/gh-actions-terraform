@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "gh-bucket-254"
+  bucket = "bucket-254"
 }
