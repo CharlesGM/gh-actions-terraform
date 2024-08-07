@@ -1,3 +1,3 @@
-# gh-actions-terraform
+### gh-actions-terraform
 
 Deploy Terraform using Github Actions
